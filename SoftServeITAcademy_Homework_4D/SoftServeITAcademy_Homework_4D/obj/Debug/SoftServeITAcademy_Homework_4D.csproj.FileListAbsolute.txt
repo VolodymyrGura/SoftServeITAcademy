@@ -1,0 +1,9 @@
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\bin\Debug\SoftServeITAcademy_Homework_4D.exe.config
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\bin\Debug\SoftServeITAcademy_Homework_4D.exe
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\bin\Debug\SoftServeITAcademy_Homework_4D.pdb
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\bin\Debug\StyleCop.dll
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\bin\Debug\StyleCop.xml
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\obj\Debug\SoftServeITAcademy_Homework_4D.csprojResolveAssemblyReference.cache
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\obj\Debug\SoftServeITAcademy_Homework_4D.csproj.CoreCompileInputs.cache
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\obj\Debug\SoftServeITAcademy_Homework_4D.exe
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_4D\SoftServeITAcademy_Homework_4D\obj\Debug\SoftServeITAcademy_Homework_4D.pdb
