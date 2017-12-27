@@ -1,0 +1,11 @@
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\bin\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.deps.json
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\bin\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.runtimeconfig.json
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\bin\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.runtimeconfig.dev.json
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\bin\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.dll
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\bin\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.pdb
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\obj\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.csprojResolveAssemblyReference.cache
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\obj\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.csproj.CoreCompileInputs.cache
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\obj\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.AssemblyInfoInputs.cache
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\obj\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.AssemblyInfo.cs
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\obj\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.dll
+D:\ATQC\C#\Labs\SoftServeITAcademy_Homework_5D\SoftServeITAcademy_Homework_5D1\obj\Debug\netcoreapp2.0\SoftServeITAcademy_Homework_5D1.pdb
