@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "d8290debccf3164d3f3058e1392cd60f4c93645c"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "SoftServeITAcademy_Homework_5D2/1.0.0": {
+        "dependencies": {
+          "StyleCop": "5.0.0",
+          "StyleCop.Analyzers": "1.0.2"
+        },
+        "runtime": {
+          "SoftServeITAcademy_Homework_5D2.dll": {}
+        }
+      },
+      "StyleCop/5.0.0": {
+        "runtime": {
+          "lib/net40/StyleCop.dll": {}
+        }
+      },
+      "StyleCop.Analyzers/1.0.2": {}
+    }
+  },
+  "libraries": {
+    "SoftServeITAcademy_Homework_5D2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StyleCop/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uyhpJFORMpB32ChaMyX+5FqUrOaiB1K2SZfpUBm7T+7EYifURKk3Ho+J3Kcpwjh5OOzn9Ok+JAxRIq0gu5+i1A==",
+      "path": "stylecop/5.0.0",
+      "hashPath": "stylecop.5.0.0.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
+      "path": "stylecop.analyzers/1.0.2",
+      "hashPath": "stylecop.analyzers.1.0.2.nupkg.sha512"
+    }
+  }
+}
