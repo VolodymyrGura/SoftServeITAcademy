@@ -72,10 +72,7 @@ namespace SoftServeITAcademy_Homework_4D
 
         public override int GetHashCode()
         {
-            unchecked
-            {
-                return (this._temperature.GetHashCode() * 397) ^ this._pressure.GetHashCode();
-            }
+            return (this._temperature.GetHashCode() * 397) ^ this._pressure.GetHashCode();
         }
 
         public void Print()

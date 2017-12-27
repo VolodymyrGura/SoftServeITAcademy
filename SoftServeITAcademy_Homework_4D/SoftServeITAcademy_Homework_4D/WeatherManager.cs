@@ -16,16 +16,13 @@ namespace SoftServeITAcademy_Homework_4D
 
         public void PrintWeather()
         {
-            Console.WriteLine("температура    атм.тиск    сила вiтру      опади");
-
-            foreach (var w in this._weathers)
-            {
-                w.Print();
-            }
+            this.PrintWeather(this._weathers);
         }
 
         public void PrintWeather(IEnumerable<Weather> weathers)
         {
+            Console.WriteLine("температура    атм.тиск    сила вiтру      опади");
+
             foreach (var w in weathers)
             {
                 w.Print();
@@ -72,11 +69,7 @@ namespace SoftServeITAcademy_Homework_4D
 
         public IEnumerable<Weather> SortWeatherTemperatureDecrease()
         {
-            var query = from weather in this._weathers
-                orderby weather.Temperature descending
-                select weather;
-
-            return query.ToList();
+            return this._weathers.OrderByDescending(w => w.Temperature);
         }
 
         public void GetRandomWeather(int days)
