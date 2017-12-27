@@ -1,39 +1,44 @@
 ﻿using System;
+using SostServeITAcademy_Homework_1;
 
 namespace SoftServeITAcademy_Homework_3D
 {
     public class Program
     {
-        public static void Main(string[] args)
+        private static IValidatable _validator;
+
+        public static void Main()
         {
             // Task 1
             int i;
-            double a, suma = 0;
-            double[] b = new double[30] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3 };
-            for (i = 0; i < 30; i++)
+            double suma = 0;
+            double[] b = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3 };
+            for (i = 0; i < b.Length; i++)
             {
+                double a;
                 if (i % 2 == 0)
                 {
-                    a = i / 2;
+                    a = i / 2d;
                 }
                 else
                 {
                     a = i;
                 }
 
-                suma = (a - b[i]) * (a - b[i]);
+                suma = Math.Pow(a - b[i], 2);
             }
 
-            Console.WriteLine("Suma= {0}", suma);
+            Console.WriteLine($"Sum = {suma}");
 
             // Task 2
-            Console.Write("Enter N=");
-            int n = Convert.ToInt32(Console.ReadLine());
-            int sum = 0;
+            _validator = new ConsoleInputValidator();
+            var n = _validator.GetIntegerInput("Enter N = ", 0, int.MaxValue);
+            var sum = 0;
+
             for (i = 0; i < n; i++)
             {
                 sum += i;
-                Console.Write(" {0} {1}\n", i, sum);
+                Console.Write($" {i} {sum} \n");
             }
 
             Console.ReadKey();
