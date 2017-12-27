@@ -2,80 +2,60 @@
 
 namespace SoftServeITAcademy_Homework_4D
 {
-   public class Weather
+    public enum Winds
     {
-        private double temperature;
-        private double pressure;
-        private string wind;
-        private string precipitation;
+        Quiet = 't', Light = 'l', Moderate = 'p', Strong = 's'
+    }
+
+    public enum Precipitations
+    {
+        WithoutPrecipitation = 0, Rain = 1, Snow = 2
+    }
+
+    public class Weather
+    {
+        private double _temperature;
+        private double _pressure;
+        private Winds _wind;
+        private Precipitations _precipitation;
+
+        public Weather() { }
+
+        public Weather(double temperature, double pressure, Winds wind, Precipitations precipitation)
+        {
+            this._temperature = temperature;
+            this._pressure = pressure;
+            this._wind = wind;
+            this._precipitation = precipitation;
+        }
 
         public double Temperature
         {
-            get
-            {
-                return this.temperature;
-            }
-
-            set
-            {
-                this.temperature = value;
-            }
+            get => this._temperature;
+            set => this._temperature = value;
         }
 
         public double Pressure
         {
-            get
-            {
-                return this.pressure;
-            }
-
-            set
-            {
-                this.pressure = value;
-            }
+            get => this._pressure;
+            set => this._pressure = value;
         }
 
-        public string Wind
+        public Winds Wind
         {
-            get
-            {
-                return this.wind;
-            }
-
-            set
-            {
-                this.wind = value;
-            }
+            get => this._wind;
+            set => this._wind = value;
         }
 
-        public string Precipitation
+        public Precipitations Precipitation
         {
-            get
-            {
-                return this.precipitation;
-            }
-
-            set
-            {
-                this.precipitation = value;
-            }
-        }
-
-        public Weather()
-        {
-        }
-
-        public Weather(double temperatures, double pressures, string winds, string precipitations)
-        {
-            this.temperature = temperatures;
-            this.pressure = pressures;
-            this.wind = winds;
-            this.pressure = pressures;
+            get => this._precipitation;
+            set => this._precipitation = value;
         }
 
         public override string ToString()
         {
-            return "Temperature " + this.temperature + "Pressure " + this.pressure + "Wind " + this.wind + "Precipitation" + this.precipitation;
+            return $"Temperature {this._temperature} Pressure {this._pressure} Wind {this._wind} Precipitation {this._precipitation}";
         }
 
         public override bool Equals(object obj)
@@ -86,13 +66,18 @@ namespace SoftServeITAcademy_Homework_4D
                 return false;
             }
 
-            Weather parametr = (Weather)obj;
-            return (this.wind == parametr.wind) && (this.precipitation == parametr.precipitation);
+            var parametr = (Weather)obj;
+            return (this._wind == parametr._wind) && (this._precipitation == parametr._precipitation);
         }
 
-        public void Print(double temperature, double pressure, string wind, string precipitation)
+        public override int GetHashCode()
         {
-            Console.WriteLine("{0}*C         \t {1} \t   {2} \t   {3} ", this.temperature, this.pressure, this.wind, this.precipitation);
+            return (this._temperature.GetHashCode() * 397) ^ this._pressure.GetHashCode();
+        }
+
+        public void Print()
+        {
+            Console.WriteLine($"{this._temperature}*C \t\t {this._pressure} \t\t {this._wind} \t {this._precipitation}");
         }
     }
 }
