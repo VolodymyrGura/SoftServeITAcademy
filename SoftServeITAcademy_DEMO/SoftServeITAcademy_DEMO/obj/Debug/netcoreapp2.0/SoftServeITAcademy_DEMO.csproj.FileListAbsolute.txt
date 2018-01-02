@@ -1,0 +1,11 @@
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\bin\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.deps.json
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\bin\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.runtimeconfig.json
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\bin\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.runtimeconfig.dev.json
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\bin\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.dll
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\obj\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.csprojResolveAssemblyReference.cache
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\obj\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.csproj.CoreCompileInputs.cache
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\obj\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.AssemblyInfoInputs.cache
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\obj\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.AssemblyInfo.cs
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\bin\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.pdb
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\obj\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.dll
+D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\obj\Debug\netcoreapp2.0\SoftServeITAcademy_DEMO.pdb
